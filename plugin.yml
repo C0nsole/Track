@@ -1,0 +1,16 @@
+name: Track
+main: me.C0nsole.Track.Track
+version: 1.0
+author: C0nsole
+commands:
+   track:
+     description: The command for the plugin
+permissions:
+   track.track:
+     description: Allows the use of /track
+     default: op
+   track.plus:
+     description: Allows the player to use /track for a 2000 block radius
+     default: op
+     children:
+       track.track: true
